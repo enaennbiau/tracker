@@ -1,0 +1,10 @@
+{
+  "display_name": "enaennTracker",
+  "version": "1.0.0",
+  "author": "enaenn",
+  "homePage": "",
+  "auto_update": false,
+  "js": "index.js",
+  "css": "style.css",
+  "generate_interceptor": false
+}

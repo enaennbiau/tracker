@@ -1,0 +1,62 @@
+/* ═══════════════════════════════════════
+   enaennTracker — stylesheet
+   ═══════════════════════════════════════ */
+
+/* Label styling inside settings panel */
+#enaennTracker_root label {
+    display: block;
+    font-size: 0.82em;
+    color: #aaa;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+/* Profile editor box */
+#enaennTracker_profileEditor {
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+#enaennTracker_profileEditor .editor-title {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+    color: #ccc;
+}
+
+/* Gap helper */
+.enaenn-gap {
+    margin-bottom: 8px;
+}
+
+/* Toolbar refresh button */
+#enaennTracker_toolbarBtn {
+    cursor: pointer;
+    padding: 4px 9px;
+    font-size: 1.05em;
+    opacity: 0.75;
+    user-select: none;
+    transition: opacity 0.15s;
+}
+
+#enaennTracker_toolbarBtn:hover  { opacity: 1;   }
+#enaennTracker_toolbarBtn:active { opacity: 0.4; }
+
+/* ── Tracker messages inside the chat ────────────────────────────────────── */
+
+/* Active tracker block — rendered in the chat bubble */
+.enaenn-tracker-block {
+    font-size: 0.85em;
+    line-height: 1.45;
+}
+
+/* Archived tracker placeholder */
+.enaenn-tracker-archived {
+    font-size: 0.78em;
+    opacity: 0.45;
+    padding: 2px 0;
+    font-style: italic;
+}
